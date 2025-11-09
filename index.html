@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      button {
+        height: 90px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 2px solid white;
+        font: normal 30px "Arial";
+        color: white;
+        padding: 30px 20px;
+        transition: all 0.3s;
+      }
+      button:hover {
+        background: white;
+        color: #5d3cdf;
+      }
+      button:active {
+        background: rgb(224, 224, 224);
+      }
+      body {
+        background: #5d3cdf;
+        height: 97vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <button id="js-btn">Open The Unit Convertor</button>
+    </main>
+    <script>
+        let btn = document.getElementById("js-btn")
+        btn.addEventListener("click",function(){
+            window.open("convertor.html","fixedWindow","width=530,height=810,resizable=no")
+        })
+    </script>
+  </body>
+</html>
