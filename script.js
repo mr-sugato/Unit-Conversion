@@ -7,7 +7,9 @@
   let length = document.getElementById("js-lenght");
   let volume = document.getElementById("js-volume");
   let btn = document.getElementById("js-btn-con");
-
+  length.textContent = `0 meters = 0 feet | 0 feet = 0 meters`;  
+  volume.textContent = `0 liters = 0 gallons | 0 gallons = 0 liters`;
+  mass.textContent = `0 kilos = 0 pounds | 0 pounds = 0 kilos`;
   btn.addEventListener("click", function () {
     // x = vl.value;
     let vl = Number(document.getElementById("js-inpt").value);
