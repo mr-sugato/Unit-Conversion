@@ -17,8 +17,7 @@ A Unit Conversion tool made with pure css, html, js
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/NavidMontazeri/Unit-Conversion/master/images/screenshot.png
-" alt="Metric/Imperial Unit Conversion" width="400">
+<img src="https://raw.githubusercontent.com/NavidMontazeri/Unit-Conversion/master/images/screenshot.png" alt="Metric/Imperial Unit Conversion" width="400">
 
 
 
